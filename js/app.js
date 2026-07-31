@@ -24,6 +24,8 @@ function init(){
 
     initBackToTop();
 
+    initContactForm();
+
     // بعداً اینجا قابلیت‌های عمومی سایت
     // مثل Back To Top
     // فرم تماس
@@ -68,6 +70,38 @@ function initBackToTop(){
 
 }
 
+
+/*========================================
+    Contact Form
+========================================*/
+
+function initContactForm(){
+
+    if(!contactForm) return;
+
+    const successMessage = document.querySelector("#formSuccess");
+
+    contactForm.addEventListener("submit", (e)=>{
+
+        e.preventDefault();
+
+        contactForm.reset();
+
+        if(successMessage){
+
+            successMessage.classList.add("show");
+
+            setTimeout(()=>{
+
+                successMessage.classList.remove("show");
+
+            },4000);
+
+        }
+
+    });
+
+}
 /*========================================
     Mobile Menu
 ========================================*/
