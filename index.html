@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NaNa Café</title>
+
+    <meta name="description" content="NaNa Café | Fresh Coffee, Handmade Bakery & Warm Moments">
+    <meta name="keywords" content="coffee,cafe,restaurant,nana cafe">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&family=Lalezar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="bg-shape shape-1"></div>
+<div class="bg-shape shape-2"></div>
+<div class="bg-shape shape-3"></div>
+<div class="bg-shape shape-4"></div>
+
+<button class="back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<header class="header">
+
+    <div class="container">
+
+        <a href="#home" class="logo">
+            <img src="images/logo.jpg" alt="NaNa Café">
+            <span>NaNa Café</span>
+        </a>
+
+        <nav class="navbar">
+
+            <ul class="nav-list">
+
+                <li>
+                    <a href="#home" class="active">Home</a>
+                </li>
+
+                <li>
+                    <a href="#menu">Menu</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+        <div class="header-actions">
+
+            <button class="menu-btn">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+<main>
+
+    <section class="hero" id="home">
+
+        <div class="container hero__container">
+
+            <div class="hero__content">
+
+                <span class="hero__subtitle">
+                    Welcome to
+                </span>
+
+                <h1 class="hero__title">
+                    NaNa Café
+                </h1>
+
+                <p class="hero__text">
+                    Fresh coffee, handmade bakery and warm conversations.
+                    A cozy place where every cup is crafted with love.
+                </p>
+
+                <div class="hero__buttons">
+
+                    <a href="#menu" class="btn btn-primary">
+
+                        Explore Menu
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero__image">
+
+                <img
+                    class="coffee-img"
+                    src="images/latte.webp"
+                    alt="Coffee Cup">
+
+                <img
+                    class="coffee-beans"
+                    src="images/coffe beans.png"
+                    alt="Coffee Beans">
+
+                <div class="special-card">
+
+                    <span>Today's Special</span>
+
+                    <h3>Caramel Latte</h3>
+
+                    <p>
+                        Double Espresso<br>
+                        Creamy Milk<br>
+                        Caramel Syrup
+                    </p>
+
+                    <strong>$7.90</strong>
+
+                </div>
+
+                <div class="fresh-badge">
+
+                    Fresh<br>Everyday
+
+                </div>
+
+                <div class="hero-signature">
+
+                    Made with ♥ Love
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="stats">
+
+        <div class="container stats__container">
+
+            <article class="stat-card">
+                <i class="fa-solid fa-mug-hot"></i>
+                <h3>120+</h3>
+                <p>Coffee & Drinks</p>
+            </article>
+
+            <article class="stat-card">
+                <i class="fa-solid fa-bread-slice"></i>
+                <h3>Fresh</h3>
+                <p>Handmade Bakery</p>
+            </article>
+
+            <article class="stat-card">
+                <i class="fa-solid fa-face-smile"></i>
+                <h3>15K+</h3>
+                <p>Happy Guests</p>
+            </article>
+
+            <article class="stat-card">
+                <i class="fa-solid fa-star"></i>
+                <h3>4.9</h3>
+                <p>Customer Rating</p>
+            </article>
+
+        </div>
+
+    </section>
+
+    <section class="features">
+
+        <div class="container">
+
+            <div class="section-title">
+                <span>Why Choose Us</span>
+                <h2>Crafted With Love</h2>
+            </div>
+
+            <div class="features__grid">
+
+                <article class="feature-card">
+                    <img src="images/cb2.jpg" alt="Coffee Beans">
+                    <h3>Premium Beans</h3>
+                    <p>Only carefully selected coffee beans from trusted farms.</p>
+                </article>
+
+                <article class="feature-card">
+                    <img src="images/latte art.jfif" alt="Latte Art">
+                    <h3>Latte Art</h3>
+                    <p>Every cup is prepared by our experienced baristas.</p>
+                </article>
+
+                <article class="feature-card">
+                    <img src="images/bakery.webp" alt="Bakery">
+                    <h3>Fresh Bakery</h3>
+                    <p>Fresh desserts and pastries baked every morning.</p>
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="menu" id="menu">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Explore</span>
+
+                <h2>Our Menu</h2>
+
+            </div>
+
+            <!-- Main Category -->
+
+            <div class="menu-tabs">
+
+                <div class="menu-tab active" data-category="food">
+
+                    <img src="images/category/food.png">
+
+                    <span>Food</span>
+
+                </div>
+
+                <div class="menu-tab" data-category="drinks">
+
+                    <img src="images/category/drinks.png">
+
+                    <span>Drinks</span>
+
+                </div>
+
+                <div class="menu-tab" data-category="dessert">
+
+                    <img src="images/category/dessert.png">
+
+                    <span>Dessert</span>
+
+                </div>
+
+            </div>
+
+            <!-- Sub Category -->
+
+            <div class="submenu-wrapper">
+
+                <!-- FOOD -->
+
+                <div class="submenu active" data-menu="food">
+
+                    <button class="submenu-btn active" data-sub="breakfast">
+                        Breakfast
+                    </button>
+
+                    <button class="submenu-btn" data-sub="soup">
+                        Soup
+                    </button>
+
+                    <button class="submenu-btn" data-sub="salad">
+                        Salad
+                    </button>
+
+                    <button class="submenu-btn" data-sub="appetizer">
+                        Appetizer
+                    </button>
+
+                    <button class="submenu-btn" data-sub="pizza">
+                        Pizza
+                    </button>
+
+                </div>
+
+                <!-- DRINK -->
+
+                <div class="submenu" data-menu="drinks">
+
+                    <button class="submenu-btn active" data-sub="hot">
+                        Hot Drinks
+                    </button>
+
+                    <button class="submenu-btn" data-sub="cold">
+                        Cold Drinks
+                    </button>
+
+                </div>
+
+                <!-- DESSERT -->
+
+                <div class="submenu" data-menu="dessert">
+
+                    <button class="submenu-btn active" data-sub="bakery">
+                        Bakery
+                    </button>
+
+                    <button class="submenu-btn" data-sub="dessert">
+                        Dessert
+                    </button>
+
+                </div>
+
+            </div>
+             <!-- ================= MENU SLIDER ================= -->
+
+            <div class="menu-slider">
+
+                <button class="slider-arrow prev" aria-label="Previous">
+
+                    <i class="fa-solid fa-chevron-left"></i>
+
+                </button>
+
+                <div class="slider-viewport">
+
+                    <div class="slider-track">
+
+                        <!-- Menu Cards توسط JavaScript ساخته می‌شوند -->
+
+                    </div>
+
+                </div>
+
+                <button class="slider-arrow next" aria-label="Next">
+
+                    <i class="fa-solid fa-chevron-right"></i>
+
+                </button>
+
+            </div>
+
+            <!-- Slider Indicator -->
+
+            <div class="slider-indicator">
+
+                <span class="indicator-line"></span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+
+        <div class="container about__container">
+
+            <div class="about__image">
+                <img src="images/about us.jpg" alt="NaNa Café">
+            </div>
+
+            <div class="about__content">
+
+                <span class="section-subtitle">About Us</span>
+
+                <h2>More Than Just Coffee</h2>
+
+                <p>
+                    At NaNa Café, every cup tells a story. We believe coffee is more
+                    than a drink—it's a reason to slow down, connect with people and
+                    enjoy life's simple moments.
+                </p>
+
+                <p>
+                    From freshly roasted beans to handmade desserts, every detail is
+                    prepared with care. Whether you're here to work, meet friends or
+                    simply relax, we want every visit to feel warm and memorable.
+                </p>
+
+                <button class="btn btn-primary about-btn">
+                    Read More
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+
+        <div class="container contact__container">
+
+            <div class="contact__info">
+
+                <span class="section-subtitle">Contact</span>
+
+                <h2>Visit NaNa Café</h2>
+
+                <div class="info-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <h4>Address</h4>
+                        <p>Your Address Here</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+98 912 345 6789</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="fa-solid fa-clock"></i>
+                    <div>
+                        <h4>Opening Hours</h4>
+                        <p>Everyday | 8:00 AM - 11:00 PM</p>
+                    </div>
+                </div>
+
+                <div class="map-box">
+
+                    <!-- Google Map -->
+
+                </div>
+
+            </div>
+
+            <div class="contact__form">
+
+                <span class="section-subtitle">Send Message</span>
+
+                <h2>We'd Love To Hear From You</h2>
+
+                <form id="contactForm">
+
+                    <input type="text" placeholder="First Name" required>
+
+                    <input type="text" placeholder="Last Name" required>
+
+                    <input type="tel" placeholder="Phone Number" required>
+
+                    <textarea rows="7" placeholder="Write your message..."></textarea>
+
+                    <button type="submit" class="btn btn-primary">
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer class="footer">
+
+    <div class="container footer__container">
+
+        <div class="footer__brand">
+
+            <img src="images/logo.jpg" alt="NaNa Café">
+
+            <h3>NaNa Café</h3>
+
+            <p>Fresh Coffee • Handmade Bakery • Warm Moments</p>
+
+        </div>
+
+        <div class="footer__links">
+
+            <h4>Navigation</h4>
+
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+        <div class="footer__social">
+
+            <h4>Follow Us</h4>
+
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="footer__bottom">
+
+        <p>© 2026 NaNa Café. All Rights Reserved.</p>
+
+    </div>
+
+</footer>
+
+
+<template id="menu-card-template">
+
+    <article class="menu-card">
+
+        <div class="menu-card__inner">
+
+            <!-- Front -->
+
+            <div class="menu-card__front">
+
+                <div class="menu-card__image">
+
+                    <img src="" alt="Menu Item" class="item-image">
+
+                </div>
+
+                <div class="menu-card__content">
+
+                    <h3 class="item-name"></h3>
+
+                    <p class="item-description"></p>
+
+                    <div class="menu-card__footer">
+
+                        <span class="item-price"></span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Back -->
+
+            <div class="menu-card__back">
+
+                <ul class="ingredients-list">
+
+                    <!-- JavaScript -->
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </article>
+
+</template>
+
+
+<div class="floating-elements">
+
+    <span class="floating-circle circle-1"></span>
+    <span class="floating-circle circle-2"></span>
+    <span class="floating-circle circle-3"></span>
+    <span class="floating-circle circle-4"></span>
+
+</div>
+
+<script src="js/products.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
