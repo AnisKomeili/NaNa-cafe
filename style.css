@@ -796,7 +796,7 @@ button{
 .contact__info,
 .contact__form{
     background:#fff;
-    padding:40px;
+    padding:34px;
     border-radius:30px;
     box-shadow:var(--shadow);
 }
@@ -804,8 +804,8 @@ button{
 .contact__info h2,
 .contact__form h2{
     font-family:"Playfair Display",serif;
-    font-size:40px;
-    margin-bottom:30px;
+    font-size:38px;
+    margin-bottom:24px;
 }
 
 .info-item{
@@ -846,7 +846,7 @@ button{
 .contact__form form{
     display:flex;
     flex-direction:column;
-    gap:18px;
+    gap:14px;
 }
 
 .contact__form input,
@@ -855,8 +855,13 @@ button{
     padding:16px 20px;
     border-radius:16px;
     border:1px solid var(--border);
-    resize:none;
     background:#fff;
+}
+
+.contact__form textarea{
+    height:120px;
+    overflow-y:auto;
+    resize:none;
 }
 
 .contact__form input:focus,
@@ -1163,6 +1168,10 @@ button{
     .contact__info h2,
     .contact__form h2{
         font-size:34px;
+    }
+
+    .contact__form textarea{
+        height:90px;
     }
 
     /* ========== MOBILE SLIDER ========== */
